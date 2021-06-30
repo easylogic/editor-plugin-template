@@ -1,7 +1,7 @@
-import { LayerRender } from "@easylogic/editor";
+import { HTMLLayerRender } from "@easylogic/editor";
 import { SIMPLE_TYPE } from "./constants";
 
-export default class SimpleHTMLRender extends LayerRender {
+export default class SimpleHTMLRender extends HTMLLayerRender {
 
 
   async update (item, currentElement) {
